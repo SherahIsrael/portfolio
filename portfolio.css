@@ -1,0 +1,316 @@
+/*Settings for entire website 
+ h1: font-family = Great Vibes
+ All other headings:  
+ General: */
+
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+ /* Design for entire website */
+ h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: xx-large;
+    color:black;
+    position: relative;
+ }
+
+ h2, h3 {
+    color: black;
+    position: relative;
+ }
+
+ h4 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    padding: 30px;
+ }
+
+ .size {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+ }
+ 
+ section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+ /* End of entire website design */
+
+/* Skills Section */
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #161623;
+}
+
+#skills::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f00,#f0f);
+    clip-path: circle(20% at 10% 70%);
+}
+
+#skills::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2196f3,#e91e63);
+    clip-path: circle(20% at 10% 10%);
+}
+
+.skill_creation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.skill_creation .card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+}
+
+.skill_creation .card .icon img {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+
+.skill_creation .card .icon {
+    transition: 0.5s;
+    position: absolute;
+}
+
+/* End of Skills Section */
+
+/* Contact Me Section*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+section .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.contact {
+    position: relative;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    color:dimgrey;
+    margin-bottom: 10px;
+}
+
+.contact .inputBox {
+    position: relative;
+}
+
+.contact .inputBox input  {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 1.15em;
+    color:dimgrey;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+}
+
+.contact .inputBox textarea {
+    height: 150px;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 1.15em;
+    color:dimgrey;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+}
+
+.contact .inputBox ::placeholder {
+    color: dimgrey;
+}
+
+#contactBtn {
+    position: relative;
+    border: none;
+    outline: none;
+    background: dimgray;
+    color:#fff;
+    cursor: pointer;
+    font-size: 1.10em;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#contactBtn:hover {
+    background: lightslategray;
+}
+
+.snow {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+.snow .set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.snow .set div {
+    position: absolute;
+    display: block;
+}
+
+.snow .set div:nth-child(1) {
+    left: 20%;
+    animation: animate 20s linear infinite;
+}
+
+.snow .set div:nth-child(2) {
+    left: 50%;
+    animation: animate 14s linear infinite;
+}
+
+.snow .set div:nth-child(3) {
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.snow .set div:nth-child(4) {
+    left: 5%;
+    animation: animate 15s linear infinite;
+}
+
+.snow .set div:nth-child(5) {
+    left: 85%;
+    animation: animate 18s linear infinite;
+}
+
+.snow .set div:nth-child(6) {
+    left: 90%;
+    animation: animate 12s linear infinite;
+}
+
+.snow .set div:nth-child(7) {
+    left: 15%;
+    animation: animate 14s linear infinite;
+}
+
+.snow .set div:nth-child(8) {
+    left: 60%;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+    10% 
+    {
+        opacity: 1;
+    }
+    20%
+    {
+        transform: translateX(-20px) rotate(45deg);
+    }
+    40%
+    {
+        transform: translateX(-20px) rotate(90deg);
+    }
+    60%
+    {
+        transform: translateX(20px) rotate(180deg);
+    }
+    80%
+    {
+        transform: translateX(-20px) rotate(45deg);
+    }
+    100%
+    {
+        top: 110%;
+        transform: translateX(20px) rotate(225deg);
+    }
+}
+/* End of Contact Me Section */
