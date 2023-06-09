@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="portfolio.js">
-    <title>Document</title>
+    <title>Sherah Israel Portfolio</title>
 </head>
 <body>
+    <!-- Home Section -->
     <section id="home">
-        <img src="images/spring.png" alt="spring" class="size">
+        <img src="images/spring.png" alt="spring" class="spring_bg">
         <div class="heading">
             <h1>Software Developer in all Four Seasons</h1>
         </div>
     </section>
+    <!-- End of Home Section -->
+
+    <!-- About Section -->
     <section id="about">
         <img src="images/summer.png" alt="summer" class="size">
     </section>
+    <!-- End of About Section -->
+
+    <!-- Skills Section -->
     <section id="skills">
         <div class="skill_creation">
-        <div class="card" data-tilt>
+        <div class="card">
             <div class="icon">
                 <img src="images/api.png">
             </div>
@@ -80,13 +87,105 @@
                 <img src="images/bootstrap.png">
             </div>
         </div>
-    </div>
+        </div>
         <!-- <img src="images/autumn.png" alt="autumn" class="size"> -->
     <!-- Node.js icon from https://icons8.com/icon/hsPbhkOH4FMe/node-js -->    
     </section>
+    <!-- End of skills section -->
+
+    <!-- Projects Section -->
     <section id="projects">
-        <img src="images/autumn.png" alt="autumn" class="size">
+        <!--<img src="images/autumn.png" alt="autumn" class="size">-->
+        <div class="container">
+            <div class="expand">
+                <div class="showcase face1">
+                    <div class="content">
+                        <img src="images/autumn.png">
+                    </div>
+                </div>
+                <div class="showcase face2">
+                    <div class="content">
+                        <h3>Health and Wellness</h3>
+                        <a href="#" style="--clr: #ffff00;"><span>About</span><i></i></a>
+                        <a href="#" style="--clr: #ffa500;"><span>Live DEMO</span><i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="showcase face1">
+                    <div class="content">
+                        <img src="images/autumn.png">
+                    </div>
+                </div>
+                <div class="showcase face2">
+                    <div class="content">
+                        <h3>Draw with Sticks</h3>
+                        <a href="#" style="--clr: #ffff00;"><span>About</span><i></i></a>
+                        <a href="#" style="--clr: #ffa500;"><span>Live DEMO</span><i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="showcase face1">
+                    <div class="content">
+                        <img src="images/autumn.png">
+                    </div>
+                </div>
+                <div class="showcase face2">
+                    <div class="content">
+                        <h3>Indulge</h3>
+                        <a href="#" style="--clr: #ffff00;"><span>About</span><i></i></a>
+                        <a href="#" style="--clr:#ffa500;"><span>Live DEMO</span><i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="showcase face1">
+                    <div class="content">
+                        <img src="images/autumn.png">
+                    </div>
+                </div>
+                <div class="showcase face2">
+                    <div class="content">
+                        <h3>Design</h3>
+                        <a href="#" style="--clr: #ffff00;"><span>About</span><i></i></a>
+                        <a href="#" style="--clr: #ffa500;"><span>Live DEMO</span><i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="showcase face1">
+                    <div class="content">
+                        <img src="images/autumn.png">
+                    </div>
+                </div>
+                <div class="showcase face2">
+                    <div class="content">
+                        <h3>Design</h3>
+                        <a href="#" style="--clr: #ffff00;"><span>About</span><i></i></a>
+                        <a href="#" style="--clr: #ffa500;"><span>Live DEMO</span><i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="showcase face1">
+                    <div class="content">
+                        <img src="images/autumn.png">
+                    </div>
+                </div>
+                <div class="showcase face2">
+                    <div class="content">
+                        <h3>Design</h3>
+                        <a href="#" style="--clr: #ffff00;"><span>About</span><i></i></a>
+                        <a href="#" style="--clr: #ffa500;"><span>Live DEMO</span><i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- End of projects section -->
+
+    <!-- Contact Section -->
     <section id="contact" class="winter">
         <div class="snow">
             <div class="set">
@@ -116,7 +215,9 @@
                 <input type="submit" value="Contact" id="contactBtn">
             </div>
         </div>
-        
+    <!-- End of contact section -->
+
+    <!-- Footer -->
     </section>
         <div class="footer">
             <h4>Sherah Israel 2023</h4>
@@ -128,6 +229,7 @@
 		max: 25,
 		speed: 400,
         glare: true,
+        'max-glare': 1,
 	});
     </script>
 </body>
