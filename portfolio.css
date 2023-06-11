@@ -7,11 +7,9 @@
 
  /* Design for entire website */
 body {
-    margin: 0;
-    padding: 0;
+    height: 100%;
     font-family: Verdana;
     box-sizing: border-box;
-    min-height: 100vh;
 }
 
  h1 {
@@ -30,7 +28,6 @@ body {
  h4 {
     font-family: 'Great Vibes', cursive;
     text-align: center;
-    padding: 30px;
  }
 
  .size {
@@ -42,37 +39,57 @@ body {
  }
  
  section {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 150vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    
+    min-height: 150vh; 
 }
 
  /* End of entire website design */
 
 /* Home Section */
 
-
+.spring_bg {
+    background-image: url('images/spring.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* End of Home Section */
 
 /* About Section */
 
+.summer_bg {
+    background-image: url('images/summer.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* End of About Section */
 
 /* Skills Section */
+
+.autumn_bg {
+    background-image: url('images/autumn.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #skills {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: brown;
 }
 
 #skills::before {
@@ -134,11 +151,20 @@ body {
 /* End of Skills Section */
 
 /* Projects Section */
+
+.autumn_bg {
+    background-image: url('images/autumn.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #projects {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
 }
 
 .content img {
@@ -287,18 +313,17 @@ body {
 
 /* Contact Me Section*/
 
+.winter_bg {
+    background-image: url('images/winter.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #contact {
     min-height: 100vh;
-}
-section .bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    pointer-events: none;
 }
 
 .contact {
@@ -475,3 +500,14 @@ section .bg {
     }
 }
 /* End of Contact Me Section */
+
+/* Footer */
+
+/* End of Footer */
+
+/* Responsiveness */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
