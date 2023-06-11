@@ -15,4 +15,4 @@ function showContent(contentIndex,colorCode) {
     tabContent[contentIndex].style.backgroundColor = colorCode;
 }
 
-showContent(0, '#fff');
+showContent(0, '#ffff00');

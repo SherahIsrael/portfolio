@@ -260,7 +260,6 @@ body {
     position: absolute;
     inset: 2px;
     background: rgba(255, 255, 255, 0.25);
-    
 }
 
 .container .expand .showcase.face2 a span {
@@ -354,11 +353,12 @@ body {
 
 .contact .inputBox {
     position: relative;
+    width: 92%;
 }
 
 .contact .inputBox input  {
     position: relative;
-    width: 100%;
+    width: 92%;
     padding: 10px 20px;
     outline: none;
     font-size: 1.15em;
