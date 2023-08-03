@@ -147,8 +147,9 @@ body {
 }
 
 .cloud1 {
-    top: 1300px;
+    top: 2200px;
     width: 40%;
+    left: -100px;
     position: relative;
 }
 
@@ -159,7 +160,7 @@ body {
 }
 
 .cloud3 {
-    top: 300px;
+    top: 1150px;
     width: 40%;
     position: relative;
 }
@@ -244,100 +245,6 @@ body {
     left: calc(30% - 80px);
 }
 
-/* Home Section */
-
-.spring_bg {
-    background-image: url('/images/spring.png');
-}
-/* 
-  
-  .nav-content a:hover {background-color: #f1f1f1}
-  
-  .nav:hover .nav-content {
-    display: block;
-  }
-  
-  .nav:hover .navBtn {
-    background-color: yellow;
-  } */
-
-.nav {
-    position: fixed;
-    display: inline-block;
-    cursor: pointer;
-    right: 20px;
-    top: 20px;
-}
-  
-.nav-content {
-    display: none;
-    position: absolute;
-    right: 10px;
-    min-width: 160px;
-    z-index: 1;
-}  
-  
-.nav-content a {
-    color: green;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.1em;
-}  
-  
-.nav-content a:hover {
-    border-radius: 15px;
-    font-weight: 800;
-    background-color: rgba(255, 192, 203, 0.6);
-}
-  
-.nav:hover .nav-content {
-    display: block;
-}
-
-/* .navigation:active {
-  transition: 0.5s ease-in-out;
-  height: 100vh;
-  width: 220px;
-  position: fixed;
-  background: linear-gradient(
-    150.46deg,
-    rgba(255, 255, 255, 0.5) -12.61%,
-    rgba(255, 255, 255, 0.25) 110.1%
-  );
-  padding: 10px 0;
-}
-
-.items {
-  padding: 20px 0;
-  display: none;
-}
-
-.items ul li {
-  background: rgba(255, 255, 255, 0.2);
-  margin: 10px 0;
-  height: 40px;
-  transition: 0.5s ease-in;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 16px;
-  letter-spacing: 1px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.items li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 0 10px;
-  letter-spacing: 1px;
-} */
-
 /* End of Home Section */
 
 /* About Section */
@@ -347,20 +254,35 @@ body {
 }
 
 .waves {
-    position: relative;
-    bottom:0;
-    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+     overflow: hidden;
+    /*display: flex;
+    justify-content: center;
+    z-index: 1;*/
+    pointer-events: none; 
 }
 
 .waves .wave {
     position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    height: 300px;
-    background: url('/images/first_wave.png');
-    background-size: contain;
-    border: 5px solid red;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.waves .wave img {
+    max-width: 100%;
+    height: 20%;
+}
+
+.waves .wave div {
+    position: static;
+    display: block;
+    bottom: 40px;
 }
 
 .about {
@@ -368,6 +290,27 @@ body {
     border: 1px solid yellow;
     width: 60%;
     margin: auto;
+}
+
+#scrollToTop {
+    size: 8px;
+    padding: 6px;
+    position: relative;
+    right: 20px;
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    z-index: 99;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+#scrollToTop img {
+    width: 30px;
+    height: 30px;
 }
 
 /* End of About Section */

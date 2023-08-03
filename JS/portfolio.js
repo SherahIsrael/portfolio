@@ -6,7 +6,7 @@ for (let i = 0; i < nav.length; i++) {
 }
 
 // Clouds Animations
-let cloud = gsap.timeline({
+let cloud1 = gsap.timeline({
     scrollTrigger: {
         trigger: '.cloud4',
         start: '50% center',
@@ -16,15 +16,56 @@ let cloud = gsap.timeline({
     }
 })
 
-cloud.to('.cloud4', {
+cloud1.to('.cloud4', {
     x: 1500
+})
+
+let cloud2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.cloud2',
+        start: '50% center',
+        end: '150% center',
+        scrub: true,
+        // markers: true
+    }
+})
+
+cloud2.to('.cloud2', {
+    x: 500
+})
+let cloud3 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.cloud3',
+        start: '50% center',
+        end: '150% center',
+        scrub: true,
+        // markers: true
+    }
+})
+
+cloud3.to('.cloud3', {
+    x: 800
+})
+
+let cloud4 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.cloud1',
+        start: '50% center',
+        end: '150% center',
+        scrub: true,
+        // markers: true
+    }
+})
+
+cloud4.to('.cloud1', {
+    x: 600
 })
 
 // Spring Background
 const { innerHeight } = window;
 
 gsap.from('.NewSpring', {
-    scale: 2, duration: 3,
+    scale: 1.9, duration: 3,
     scrollTrigger: {
         trigger: '.NewSpring',
         // start: 'top center',
@@ -113,3 +154,24 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
+
+
+// Scroll to top button
+let toTopBtn = document.getElementById("scrollToTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 4620 || document.documentElement.scrollTop > 4620) {
+    toTopBtn.style.display = "block";
+  } else {
+    toTopBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function ScrollToTop() {
+  document.body.scrollTop = 3820;
+  document.documentElement.scrollTop = 3820;
+}
