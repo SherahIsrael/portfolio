@@ -402,274 +402,449 @@ body {
 }
 
 .leaves .gliding div:nth-child(1) {
-    top: 760px;
+    top: 645px;
     left: 30px;
     /* animation: appear 25s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(2) {
-    top: 760px;
-    left: 55px;
+    top: 668px;
+    left: 30px;
     /* opacity: 0;
     animation: appear 25s 4s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(3) {
-    top: 760px;
-    left: 75px;
+    top: 690px;
+    left: 30px;
     /* animation: appear 25s 3s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(4) {
-    top: 760px;
-    left: 92px;
+    top: 710px;
+    left: 30px;
     /* animation: appear 25s 5s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(5) {
-    top: 760px;
-    left: 110px;
+    top: 710px;
+    left: 53px;
     /* animation: appear 25s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(6) {
-    top: 760px;
-    left: 130px;
+    top: 710px;
+    left: 75px;
     /* animation: appear 25s 4s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(7) {
-    top: 740px;
-    left: 32px;
+    top: 690px;
+    left: 75px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(8) {
-    top: 718px;
-    left: 30px;
+    top: 668px;
+    left: 75px;
     /* animation: appear 25s 3s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(9) {
-    top: 695px;
-    left: 30px;
+    top: 645px;
+    left: 75px;
     /* animation: appear 20s 4s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(10) {
-    top: 695px;
-    left: 50px;
+    top: 645px;
+    left: 95px;
     /* animation: appear 25s 5s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(11) {
-    top: 695px;
-    left: 75px;
+    top: 645px;
+    left: 108px;
     /* animation: appear 20s 3s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(12) {
-    top: 718px;
-    left: 75px;
+    top: 645px;
+    left: 130px;
     animation: appear 20s 4s linear infinite forwards;
 }
  
 .leaves .gliding div:nth-child(13) {
-    top: 740px;
-    left: 75px;
+    top: 668px;
+    left: 130px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(14) {
-    top: 660px;
-    left: 30px;
+    top: 690px;
+    left: 130px;
     animation: appear 25s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(15) {
-    top: 660px;
-    left: 50px;
+    top: 710px;
+    left: 130px;
     animation: appear 20s 5s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(16) {
-    top: 660px;
-    left: 70px;
+    top: 590px;
+    left: 30px;
     animation: appear 20s 4s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(17) {
-    top: 660px;
-    left: 90px;
+    top: 590px;
+    left: 53px;
     animation: appear 20s 3s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(18) {
-    top: 660px;
-    left: 108px;
+    top: 590px;
+    left: 75px;
     animation: appear 25s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(19) {
-    top: 660px;
-    left: 128px;
+    top: 590px;
+    left: 95px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(20) {
-    top: 640px;
-    left: 30px;
+    top: 590px;
+    left: 108px;
     animation: appear 20s 4s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(21) {
-    top: 620px;
-    left: 30px;
+    top: 590px;
+    left: 130px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(22) {
-    top: 595px;
-    left: 30px;
+    top: 570px;
+    left: 67px;
     animation: appear 20s 5s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(23) {
-    top: 595px;
-    left: 48px;
+    top: 570px;
+    left: 85px;
     animation: appear 25s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(24) {
-    top: 595px;
-    left: 68px;
+    top: 550px;
+    left: 50px;
     animation: appear 20s 3s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(25) {
-    top: 620px;
-    left: 75px;
+    top: 535px;
+    left: 30px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(26) {
-    top: 640px;
-    left: 73px;
+    top: 550px;
+    left: 105px;
     animation: appear 20s 4s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(27) {
-    top: 613px;
-    left: 90px;
+    top: 530px;
+    left: 130px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(28) {
-    top: 605px;
-    left: 110px;
+    top: 475px;
+    left: 30px;
     animation: appear 25s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(29) {
-    top: 595px;
-    left: 130px;
+    top: 475px;
+    left: 53px;
     animation: appear 20s 5s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(30) {
-    top: 555px;
-    left: 30px;
+    top: 475px;
+    left: 75px;
     animation: appear 20s 3s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(31) {
-    top: 532px;
-    left: 30px;
+    top: 475px;
+    left: 95px;
     animation: appear 20s 4s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(32) {
-    top: 509px;
-    left: 30px;
+    top: 475px;
+    left: 108px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(33) {
-    top: 487px;
-    left: 30px;
+    top: 475px;
+    left: 130px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(34) {
-    top: 555px;
-    left: 50px;
+    top: 425px;
+    left: 30px;
     animation: appear 20s 3s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(35) {
-    top: 555px;
-    left: 70px;
+    top: 425px;
+    left: 53px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(36) {
-    top: 554px;
-    left: 90px;
+    top: 425px;
+    left: 75px;
     animation: appear 22s 4s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(37) {
-    top: 553px;
-    left: 110px;
+    top: 425px;
+    left: 95px;
     animation: appear 20s 5s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(38) {
-    top: 553px;
-    left: 130px;
+    top: 425px;
+    left: 108px;
     animation: appear 23s 3s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(39) {
-    top: 487px;
-    left: 50px;
+    top: 425px;
+    left: 130px;
     animation: appear 25s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(40) {
-    top: 487px;
-    left: 70px;
+    top: 405px;
+    left: 130px;
     animation: appear 20s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(41) {
-    top: 487px;
-    left: 90px;
+    top: 385px;
+    left: 130px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(42) {
-    top: 487px;
-    left: 110px;
+    top: 365px;
+    left: 130px;
     animation: appear 20s 4s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(43) {
-    top: 490px;
-    left: 130px;
+    top: 320px;
+    left: 30px;
     /* animation: appear 20s 3s linear infinite forwards; */
 }
 
 .leaves .gliding div:nth-child(44) {
-    top: 510px;
-    left: 130px;
+    top: 320px;
+    left: 53px;
     opacity: 1;
 }
 
 .leaves .gliding div:nth-child(45) {
-    top: 530px;
-    left: 130px;
+    top: 320px;
+    left: 75px;
     /* animation: appear 20s 5s linear infinite forwards; */
+}
+
+.leaves .gliding div:nth-child(46) {
+    top: 320px;
+    left: 95px;
+    animation: appear 20s 4s linear infinite forwards;
+}
+ 
+.leaves .gliding div:nth-child(47) {
+    top: 320px;
+    left: 109px;
+    opacity: 1;
+}
+
+.leaves .gliding div:nth-child(48) {
+    top: 320px;
+    left: 130px;
+    animation: appear 25s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(49) {
+    top: 300px;
+    left: 130px;
+    animation: appear 20s 5s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(50) {
+    top: 280px;
+    left: 130px;
+    animation: appear 20s 4s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(51) {
+    top: 258px;
+    left: 130px;
+    animation: appear 20s 3s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(52) {
+    top: 208px;
+    left: 30px;
+    animation: appear 25s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(53) {
+    top: 185px;
+    left: 30px;
+    opacity: 1;
+}
+
+.leaves .gliding div:nth-child(54) {
+    top: 165px;
+    left: 30px;
+    animation: appear 20s 4s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(55) {
+    top: 143px;
+    left: 30px;
+    opacity: 1;
+}
+
+.leaves .gliding div:nth-child(56) {
+    top: 208px;
+    left: 53px;
+    animation: appear 20s 5s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(57) {
+    top: 208px;
+    left: 75px;
+    animation: appear 25s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(58) {
+    top: 185px;
+    left: 75px;
+    animation: appear 20s 3s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(59) {
+    top: 165px;
+    left: 75px;
+    opacity: 1;
+}
+
+.leaves .gliding div:nth-child(60) {
+    top: 143px;
+    left: 75px;
+    animation: appear 20s 4s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(61) {
+    top: 143px;
+    left: 96px;
+    opacity: 1;
+}
+
+.leaves .gliding div:nth-child(62) {
+    top: 141px;
+    left: 112px;
+    animation: appear 25s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(63) {
+    top: 143px;
+    left: 130px;
+    animation: appear 20s 5s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(64) {
+    top: 165px;
+    left: 130px;
+    animation: appear 20s 3s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(65) {
+    top: 185px;
+    left: 130px;
+    animation: appear 20s 4s linear infinite forwards;
+}
+
+.leaves .gliding div:nth-child(66) {
+    top: 208px;
+    left: 130px;
+    opacity: 1;
+}
+
+/* Falling Leaves */
+
+.leaves .fall div:nth-child(67) {
+    left: 75%;
+    opacity: 0;
+    animation: gliding 17s 9s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(68) {
+    left: 68%;
+    opacity: 0;
+    animation: gliding 17s 10s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(69) {
+    left: 70%;
+    animation: gliding 15s 12s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(70) {
+    left: 80%;
+    animation: gliding 14s 14s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(71) {
+    left: 85%;
+    animation: gliding 13s 15s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(72) {
+    left: 90%;
+    animation: gliding 14s 15s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(73) {
+    left: 48%;
+    animation: gliding 15s 16s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(74) {
+    left: 60%;
+    animation: gliding 13s 11s linear infinite forwards;
+}
+
+.leaves .fall div:nth-child(75) {
+    left: 55%;
+    animation: gliding 17s 12s linear infinite forwards;
 }
 
 /* End of Skills Section */
