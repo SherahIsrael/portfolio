@@ -800,49 +800,49 @@ body {
 
 /* Falling Leaves */
 
-.leaves .fall div:nth-child(67) {
+.leaves .gliding div:nth-child(67) {
     left: 75%;
     opacity: 0;
     animation: gliding 17s 9s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(68) {
+.leaves .gliding div:nth-child(68) {
     left: 68%;
     opacity: 0;
     animation: gliding 17s 10s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(69) {
+.leaves .gliding div:nth-child(69) {
     left: 70%;
     animation: gliding 15s 12s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(70) {
+.leaves .gliding div:nth-child(70) {
     left: 80%;
     animation: gliding 14s 14s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(71) {
+.leaves .gliding div:nth-child(71) {
     left: 85%;
     animation: gliding 13s 15s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(72) {
+.leaves .gliding div:nth-child(72) {
     left: 90%;
     animation: gliding 14s 15s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(73) {
+.leaves .gliding div:nth-child(73) {
     left: 48%;
     animation: gliding 15s 16s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(74) {
+.leaves .gliding div:nth-child(74) {
     left: 60%;
     animation: gliding 13s 11s linear infinite forwards;
 }
 
-.leaves .fall div:nth-child(75) {
+.leaves .gliding div:nth-child(75) {
     left: 55%;
     animation: gliding 17s 12s linear infinite forwards;
 }
