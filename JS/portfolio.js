@@ -1,8 +1,10 @@
 Loader
 window.addEventListener('load', () => {
     document.querySelector('.loader-container').style.display ="none";
-    document.body.style.overflowY = "visible"
-    var cnt=document.getElementById("count"); 
+    document.body.style.overflowY = "visible" 
+})
+
+var cnt=document.getElementById("count"); 
     var percent=cnt.innerText;
     var interval;
     interval=setInterval(function(){ 
@@ -12,8 +14,6 @@ window.addEventListener('load', () => {
         clearInterval(interval);
     }
     },60);
-})
-
 
 // Clouds Animations
 let cloud1 = gsap.timeline({
