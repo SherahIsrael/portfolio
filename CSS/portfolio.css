@@ -148,28 +148,54 @@ body {
 
 .cloud1 {
     top: 2200px;
-    width: 40%;
-    left: -100px;
-    position: relative;
+    width: 70%;
+    /* left: -200px; */
+    position: absolute;
 }
 
 .cloud2 {
-    top: 900px;
-    width: 40%;
-    position: relative;
+    top: 600px;
+    width: 70%;
+    position: absolute;
 }
 
 .cloud3 {
     top: 1150px;
-    width: 40%;
-    position: relative;
+    width: 70%;
+    left: -200px;
+    position: absolute;
 }
 
 .cloud4 {
-    top: -900px;
-    position: relative;
+    /* top: -900px; */
+    top: 20px;
+    position: absolute;
     width: 70%;
     left: -900px;
+}
+
+.firstPhrase {
+    opacity: 0;
+    position: absolute;
+    top: 370%;
+    left: 280px;
+    font-size: 110px;
+}
+
+.secondPhrase {
+    opacity: 0;
+    position: absolute;
+    top: 400%;
+    left: 280px;
+    font-size: 80px;
+}
+
+.thirdPhrase {
+    opacity: 0;
+    position: absolute;
+    top: 420%;
+    left: 450px;
+    font-size: 80px;
 }
 
 .welcome {
@@ -319,6 +345,19 @@ body {
 
 .autumn_bg {
     background-image: url('/images/autumn.png');
+}
+
+.autumn_heading {
+    display: none;
+    padding-top: 30px;
+}
+
+.autumn_heading h2{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: #5f291e;
+    
 }
 
 #skills {
@@ -814,36 +853,43 @@ body {
 
 .leaves .gliding div:nth-child(69) {
     left: 70%;
+    opacity: 0;
     animation: gliding 15s 12s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(70) {
     left: 80%;
+    opacity: 0;
     animation: gliding 14s 14s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(71) {
     left: 85%;
+    opacity: 0;
     animation: gliding 13s 15s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(72) {
     left: 90%;
+    opacity: 0;
     animation: gliding 14s 15s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(73) {
     left: 48%;
+    opacity: 0;
     animation: gliding 15s 16s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(74) {
     left: 60%;
+    opacity: 0;
     animation: gliding 13s 11s linear infinite forwards;
 }
 
 .leaves .gliding div:nth-child(75) {
     left: 55%;
+    opacity: 0;
     animation: gliding 17s 12s linear infinite forwards;
 }
 
@@ -1986,6 +2032,44 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+    .firstPhrase, .secondPhrase {
+        left: 180px;
+    }
+    
+    .thirdPhrase {
+        left: 330px;
+        top: 430%;
+    }
+
+    .navigation {
+        top: 460%;
+    }
+    
+    .navigation a {
+        padding: 12px 10px;
+    }
+    
+    .firstName, .lastName {
+        left: 50%;
+    }
+
+    .firstName img, .lastName img {
+        width: 30%;
+    }
+    
+    .slogan {
+        position: relative;
+        opacity: 0;
+        top: -555px;
+        left: 40%;
+        width: 40%;
+    }
+
+    .autumn_heading {
+        display: block;
+    }
+
     .content img {
         width: 100%;
         height: 200px;

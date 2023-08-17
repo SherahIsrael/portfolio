@@ -10,55 +10,55 @@ let cloud1 = gsap.timeline({
     scrollTrigger: {
         trigger: '.cloud4',
         start: '50% center',
-        end: '150% center',
+        end: '300% 60%',
         scrub: true,
         // markers: true
     }
 })
 
 cloud1.to('.cloud4', {
-    x: 1500
+    x: 1000
 })
 
 let cloud2 = gsap.timeline({
     scrollTrigger: {
         trigger: '.cloud2',
-        start: '50% center',
-        end: '150% center',
+        start: '-70% center',
+        end: '160% center',
         scrub: true,
         // markers: true
     }
 })
 
 cloud2.to('.cloud2', {
-    x: 500
+    x: 600
 })
 let cloud3 = gsap.timeline({
     scrollTrigger: {
         trigger: '.cloud3',
-        start: '50% center',
-        end: '150% center',
+        start: '-110% center',
+        end: '210% center',
         scrub: true,
         // markers: true
     }
 })
 
 cloud3.to('.cloud3', {
-    x: 800
+    x: 700
 })
 
 let cloud4 = gsap.timeline({
     scrollTrigger: {
         trigger: '.cloud1',
-        start: '50% center',
-        end: '150% center',
+        start: '-70% center',
+        end: '180% center',
         scrub: true,
         // markers: true
     }
 })
 
 cloud4.to('.cloud1', {
-    x: 600
+    x: 400
 })
 
 // Spring Background
@@ -89,13 +89,54 @@ background.to('.NewSpring', {
     y: 600
 })
 
+let appear1 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.firstPhrase',
+        start: '-250% 30%',
+        end: '50% center',
+        scrub: true,
+        // markers: true
+    }
+})
+
+appear1.to('.firstPhrase', {
+    opacity: 1,
+})
+
+let appear2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.secondPhrase',
+        start: '-250% 30%',
+        end: '50% center',
+        scrub: true,
+    }
+})
+
+appear2.to('.secondPhrase', {
+    opacity: 1,
+})
+
+let appear3 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.thirdPhrase',
+        start: '-250% 30%',
+        end: '50% center',
+        scrub: true,
+        // markers: true
+    }
+})
+
+appear3.to('.thirdPhrase', {
+    opacity: 1,
+})
+
 // Home Page Elements
 let navigation = gsap.timeline({
     scrollTrigger: {
         trigger: '.navigation',
-        start: '400% center',
-        end: '730% center',
-        scrub: true,
+        start: '390% center',
+        end: '500% center',
+        scrub: true
     }
 })
 
@@ -107,8 +148,8 @@ gsap.from('.firstName', {
     scale: 0.01, stager: 0.25, duration: 3,
     scrollTrigger: {
         trigger: '.firstName',
-        start: 'top center',
-        end: '90% center',
+        start: '-30000% 60%',
+        end: '90% 60%',
         // start: '40% center',
         // end: `+=${innerHeight * 1.3}`,
         scrub: 3
@@ -119,8 +160,8 @@ gsap.from('.lastName', {
     scale: 0.01, stager: 0.25, duration: 3,
     scrollTrigger: {
         trigger: '.firstName',
-        start: 'top center',
-        end: '90% center',
+        start: '-top 60%',
+        end: '90% 60%',
         // start: '40% center',
         // end: `+=${innerHeight * 1.3}`,
         scrub: 3
@@ -130,9 +171,9 @@ gsap.from('.lastName', {
 let slogan = gsap.timeline({
     scrollTrigger: {
         trigger: '.slogan',
-        start: '-10% 80%',
-        end: '80% 20%',
-        scrub: true,
+        start: '-10% 60%',
+        end: '170% 60%',
+        scrub: true
     }
 })
 
