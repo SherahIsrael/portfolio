@@ -4,17 +4,6 @@ window.addEventListener('load', () => {
     document.body.style.overflowY = "visible" 
 })
 
-var cnt=document.getElementById("count"); 
-    var percent=cnt.innerText;
-    var interval;
-    interval=setInterval(function(){ 
-    percent++; 
-    cnt.innerHTML = percent; 
-    if(percent==100){
-        clearInterval(interval);
-    }
-    },60);
-
 // Clouds Animations
 let cloud1 = gsap.timeline({
     scrollTrigger: {
