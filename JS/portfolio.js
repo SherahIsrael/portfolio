@@ -1,14 +1,19 @@
-// Loader
+Loader
 window.addEventListener('load', () => {
     document.querySelector('.loader-container').style.display ="none";
-  })
+    document.body.style.overflowY = "visible"
+    var cnt=document.getElementById("count"); 
+    var percent=cnt.innerText;
+    var interval;
+    interval=setInterval(function(){ 
+    percent++; 
+    cnt.innerHTML = percent; 
+    if(percent==100){
+        clearInterval(interval);
+    }
+    },60);
+})
 
-const nav = document.getElementsByClassName('nav_options')
-console.log(nav)
-
-for (let i = 0; i < nav.length; i++) {
-    nav[i].style.color = "Yellow"
-}
 
 // Clouds Animations
 let cloud1 = gsap.timeline({
@@ -136,6 +141,12 @@ appear3.to('.thirdPhrase', {
 })
 
 // Home Page Elements
+const nav = document.getElementsByClassName('nav_options')
+
+for (let i = 0; i < nav.length; i++) {
+    nav[i].style.color = "Yellow"
+}
+
 let navigation = gsap.timeline({
     scrollTrigger: {
         trigger: '.navigation',
