@@ -253,7 +253,7 @@ body {
 .navigation {
     position: absolute;
     opacity: 0;
-    top: 450%;
+    top: 3820px;
     width: 100%;
     padding: 10px;
     display: flex;
