@@ -257,6 +257,10 @@ body {
     background-image: url('/images/summer.png');
 }
 
+.about p {
+    padding-top: 10px;
+}
+
 .waves {
     position: absolute;
     width: 100%;
