@@ -209,7 +209,7 @@ let toTopBtn = document.getElementById("scrollToTop");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 4620 || document.documentElement.scrollTop > 4620) {
+  if (document.body.scrollTop > 5220 || document.documentElement.scrollTop > 5220) {
     toTopBtn.style.display = "block";
   } else {
     toTopBtn.style.display = "none";
@@ -218,6 +218,6 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function ScrollToTop() {
-  document.body.scrollTop = 3820;
-  document.documentElement.scrollTop = 3820;
+  document.body.scrollTop = 4630;
+  document.documentElement.scrollTop = 4630;
 }
